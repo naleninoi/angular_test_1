@@ -1,0 +1,10 @@
+.footer__title {
+  padding-top: 120px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__info {
+  padding-left: 200px;
+}

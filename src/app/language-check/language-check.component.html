@@ -1,0 +1,11 @@
+<form>
+  <div>
+    <input type="radio" id="lang1"
+           name="language" value="EN" (change)="onChange($event)" [(ngModel)]="currentLanguage">
+    <label for="lang1">EN</label>
+
+    <input type="radio" id="lang2"
+           name="language" value="RU" (change)="onChange($event)" [(ngModel)]="currentLanguage">
+    <label for="lang2">RU</label>
+  </div>
+</form>
